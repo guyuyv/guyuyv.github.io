@@ -1,0 +1,24 @@
+# _config.yml
+title: "GuYuYv 的博客"
+url: "https://guyuyv.github.io"
+repository: "guyuyv/guyuyv.github.io"
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+minimal_mistakes_skin: "default"
+paginate: 5
+search: true
+enable_copy_code_button: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      show_date: true
+      share: true
+      comments: true
+

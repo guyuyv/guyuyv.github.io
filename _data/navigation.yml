@@ -1,0 +1,12 @@
+main:
+  - title: 首页
+    url: /
+  - title: 学习笔记
+    url: /categories/study/
+  - title: 项目实践
+    url: /categories/project/
+  - title: 数学文档
+    url: /categories/math/
+  - title: 随笔杂谈
+    url: /categories/essay/
+
