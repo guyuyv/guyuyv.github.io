@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/common/icons/favicons/igem-2022.svg"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/style.css" rel="stylesheet">
+
+    <title>Home | WHU-China - iGEM 2025</title>
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-glass fixed-top">
+  <div class="container">
+
+    <!-- TEAM NAME -->
+    <a class="navbar-brand" href="#">WHU-China</a>
+
+    <!-- SMALL SCREEN MENU ICON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto left-aligned">
+
+        <!-- HOME -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <!-- TEAM -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-team" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-team">
+            <li><a class="dropdown-item" href="members">Members</a></li>
+            <li><a class="dropdown-item" href="attributions">Attributions</a></li>
+          </ul>
+        </li>
+
+        <!-- PROJECT -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-project" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-project">
+            <li><a class="dropdown-item" href="description">Description</a></li>
+            <li><a class="dropdown-item" href="engineering">Engineering</a></li>
+            <li><a class="dropdown-item" href="results">Results</a></li>
+            <li><a class="dropdown-item" href="contribution">Contribution</a></li>
+          </ul>
+        </li>
+
+        <!-- WET LAB -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-wet-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Wet Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-wet-lab">
+            <li><a class="dropdown-item" href="experiments">Experiments</a></li>
+            <li><a class="dropdown-item" href="notebook">Notebook</a></li>
+            <li><a class="dropdown-item" href="measurement">Measurement</a></li>
+            <li><a class="dropdown-item" href="plant">Plant</a></li>
+            <li><a class="dropdown-item" href="safety-and-security">Safety and Security</a></li>
+          </ul>
+        </li>
+
+        <!-- DRY LAB -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-dry-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dry Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-dry-lab">
+            <li><a class="dropdown-item" href="model">Model</a></li>
+            <li><a class="dropdown-item" href="software">Software</a></li>
+            <li><a class="dropdown-item" href="hardware">Hardware</a></li>
+          </ul>
+        </li>
+
+        <!-- ENGAGEMENT -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-engagement" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Engagement
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-engagement">
+            <li><a class="dropdown-item" href="entrepreneurship">Entrepreneurship</a></li>
+            <li><a class="dropdown-item" href="human-practices">Human Practices</a></li>
+            <li><a class="dropdown-item" href="education">Education</a></li>
+            <li><a class="dropdown-item" href="inclusivity">Inclusivity</a></li>
+            <li><a class="dropdown-item" href="sustainability">Sustainability</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+          <!-- Progress Indicator -->
+        <div class="progress-indicator">
+          <div class="circular-progress">
+            <div class="progress-ring">
+              <svg class="progress-ring-svg" width="120" height="120">
+                <defs>
+                  <linearGradient id="progress-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#ff1493;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#ff69b4;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <circle class="progress-ring-circle-bg" cx="60" cy="60" r="50" stroke-width="8"></circle>
+                <circle class="progress-ring-circle" cx="60" cy="60" r="50" stroke-width="8"></circle>
+              </svg>
+              <div class="progress-center">
+                <div class="character">
+                  <div class="character-body">
+                    <div class="character-head"></div>
+                    <div class="character-torso"></div>
+                    <div class="character-legs">
+                      <div class="leg left-leg"></div>
+                      <div class="leg right-leg"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="logic-gates-circle">
+              <div class="gate-position gate-1">
+                <div class="logic-gate journey-gate and-gate">
+                  <div class="gate-input input-1"></div>
+                  <div class="gate-input input-2"></div>
+                  <div class="gate-body"></div>
+                  <div class="gate-output"></div>
+                  <div class="gate-label">AND</div>
+                </div>
+              </div>
+              <div class="gate-position gate-2">
+                <div class="logic-gate journey-gate or-gate">
+                  <div class="gate-input input-1"></div>
+                  <div class="gate-input input-2"></div>
+                  <div class="gate-body"></div>
+                  <div class="gate-output"></div>
+                  <div class="gate-label">OR</div>
+                </div>
+              </div>
+              <div class="gate-position gate-3">
+                <div class="logic-gate journey-gate not-gate">
+                  <div class="gate-input input-1"></div>
+                  <div class="gate-body"></div>
+                  <div class="gate-output"></div>
+                  <div class="gate-label">NOT</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <!-- Page Content -->
+  <div class="container">
+    
+
+<!-- Full Screen Hero Section -->
+<div class="fullscreen-hero" data-aos="fade-up">
+  <div class="hero-content">
+    <h1 class="display-1 mb-4 text-gradient">LOGIC</h1>
+    <h2 class="h2 mb-4 text-muted">Lasting Optimized Genetic Input Calculator</h2>
+    <p class="lead mb-5">Revolutionizing biological computing through quorum sensing and spatial diffusion</p>
+    <div class="hero-buttons">
+      <a href="#project-overview" class="btn btn-primary btn-lg me-3">Learn More</a>
+      <a href="description" class="btn btn-outline-primary btn-lg">Project Details</a>
+    </div>
+  </div>
+</div>
+
+<!-- Project Overview -->
+<div id="project-overview" class="row mb-5" data-aos="fade-up">
+  <div class="col-lg-8">
+    <h2 class="section-title">Project Overview</h2>
+    <hr class="section-divider" />
+    <p class="lead"><b>LOGIC (Lasting Optimized Genetic Input Calculator)</b> addresses the fundamental challenges in biological computing by developing a novel approach to constructing biocomputers.</p>
+    <p>Traditional engineered bacterial circuits for logic gates have suffered from excessive complexity, cumbersome operation, and reliance on multiple input substances. Our LOGIC project overcomes these limitations by utilizing quorum sensing and spatial diffusion to form efficient logic gates.</p>
+    <div class="key-features mt-4">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="feature-item">
+            <i class="fas fa-dna text-primary"></i>
+            <span>Quorum Sensing Based Design</span>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="feature-item">
+            <i class="fas fa-network-wired text-success"></i>
+            <span>Spatial Diffusion Architecture</span>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="feature-item">
+            <i class="fas fa-lightbulb text-warning"></i>
+            <span>Light-Induced Degradation</span>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="feature-item">
+            <i class="fas fa-tools text-info"></i>
+            <span>LOGIC Toolkit Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4" data-aos="fade-left">
+    <div class="project-highlights">
+      <div class="highlight-card">
+        <div class="highlight-icon">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h4>Innovation</h4>
+        <p>Novel quorum sensing approach to biological computing</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h4>Efficiency</h4>
+        <p>Simplified operation with reduced complexity</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">
+          <i class="fas fa-recycle"></i>
+        </div>
+        <h4>Sustainability</h4>
+        <p>Reusable and refreshable computing systems</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Project Workflow -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Project Workflow</h2>
+    <hr class="section-divider" />
+    <div class="workflow-container">
+      <div class="workflow-step" data-aos="zoom-in">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h4>Design Phase</h4>
+          <p>Logic gate circuit design and QS system optimization</p>
+          <div class="step-visual">
+            <div class="placeholder-animation">
+              <div class="pulse-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="workflow-arrow" data-aos="fade-in">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="workflow-step" data-aos="zoom-in">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h4>Construction Phase</h4>
+          <p>High-pass and band-pass genetic circuits</p>
+          <div class="step-visual">
+            <div class="placeholder-animation">
+              <div class="pulse-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="workflow-arrow" data-aos="fade-in">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="workflow-step" data-aos="zoom-in">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h4>Testing Phase</h4>
+          <p>Functional validation and performance testing</p>
+          <div class="step-visual">
+            <div class="placeholder-animation">
+              <div class="pulse-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="workflow-arrow" data-aos="fade-in">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="workflow-step" data-aos="zoom-in">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h4>Application Phase</h4>
+          <p>Toolkit development and visualization software</p>
+          <div class="step-visual">
+            <div class="placeholder-animation">
+              <div class="pulse-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Core Innovations -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Core Innovations</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="flip-left">
+        <div class="innovation-card">
+          <div class="card-header">
+            <i class="fas fa-microchip innovation-icon"></i>
+            <h4>Quorum Sensing Logic Gates</h4>
+          </div>
+          <div class="card-body">
+            <p>Leveraging the diffusion properties of QS molecules to construct highly efficient and reusable logic gate systems, enabling complex biological computations.</p>
+            <div class="innovation-visual">
+              <div class="molecule-animation">
+                <div class="molecule"></div>
+                <div class="molecule"></div>
+                <div class="molecule"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="flip-right">
+        <div class="innovation-card">
+          <div class="card-header">
+            <i class="fas fa-sun innovation-icon"></i>
+            <h4>Light-Induced Degradation System</h4>
+          </div>
+          <div class="card-body">
+            <p>Engineering photo-induced QS molecule degradation enzymes through prediction, simulation, and domain addition to enable calculator refresh functionality.</p>
+            <div class="innovation-visual">
+              <div class="light-animation">
+                <div class="light-beam"></div>
+                <div class="degradation-effect"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Applications -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Applications & Prospects</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <div class="application-card">
+          <div class="app-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h5>Result Storage</h5>
+          <p>Building biological storage systems for long-term preservation of computational results</p>
+          <div class="app-animation">
+            <div class="storage-animation"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <div class="application-card">
+          <div class="app-icon">
+            <i class="fas fa-display"></i>
+          </div>
+          <h5>Decimal Display</h5>
+          <p>Developing decimal result display systems for enhanced user-friendliness</p>
+          <div class="app-animation">
+            <div class="display-animation"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="fade-up">
+        <div class="application-card">
+          <div class="app-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h5>LOGIC Toolkit</h5>
+          <p>Creating visualization software toolkit to support future research endeavors</p>
+          <div class="app-animation">
+            <div class="toolkit-animation"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team Information -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Our Team</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-8" data-aos="fade-right">
+        <p class="lead">We are a diverse team from Wuhan University, dedicated to advancing synthetic biology and biological computing research. Our interdisciplinary team brings together students from various backgrounds to collaborate on this innovative project.</p>
+        <div class="team-stats">
+          <div class="stat-item" data-aos="zoom-in">
+            <span class="stat-number" data-count="15">0</span>
+            <span class="stat-label">Team Members</span>
+          </div>
+          <div class="stat-item" data-aos="zoom-in">
+            <span class="stat-number" data-count="6">0</span>
+            <span class="stat-label">Months of Research</span>
+          </div>
+          <div class="stat-item" data-aos="zoom-in">
+            <span class="stat-number" data-count="4">0</span>
+            <span class="stat-label">Core Innovations</span>
+          </div>
+        </div>
+        <a href="members" class="btn btn-primary btn-lg mt-3">Meet Our Team</a>
+      </div>
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="team-visual">
+          <div class="team-collaboration">
+            <div class="collaboration-node"></div>
+            <div class="collaboration-node"></div>
+            <div class="collaboration-node"></div>
+            <div class="collaboration-line"></div>
+            <div class="collaboration-line"></div>
+            <div class="collaboration-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Research Highlights -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Research Highlights</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="fade-right">
+        <div class="research-card">
+          <div class="research-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <h4>Experimental Validation</h4>
+          <p>Successfully constructed and tested quorum sensing-based logic gates in bacterial systems, demonstrating reliable binary computation capabilities.</p>
+          <ul class="research-list">
+            <li>High-precision signal detection</li>
+            <li>Reproducible logic operations</li>
+            <li>Scalable circuit design</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-left">
+        <div class="research-card">
+          <div class="research-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h4>Performance Metrics</h4>
+          <p>Achieved significant improvements in computational efficiency and accuracy compared to traditional bacterial computing methods.</p>
+          <ul class="research-list">
+            <li>95% accuracy in logic operations</li>
+            <li>3x faster computation speed</li>
+            <li>Reduced resource consumption</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Technical Specifications -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Technical Specifications</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-4 mb-4" data-aos="zoom-in">
+        <div class="spec-card">
+          <h5><i class="fas fa-dna text-primary"></i> Genetic Components</h5>
+          <div class="spec-content">
+            <p><strong>QS Systems:</strong> LuxI/LuxR, LasI/LasR</p>
+            <p><strong>Promoters:</strong> Inducible, constitutive</p>
+            <p><strong>Reporters:</strong> GFP, RFP, YFP</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="zoom-in">
+        <div class="spec-card">
+          <h5><i class="fas fa-microchip text-success"></i> Logic Gates</h5>
+          <div class="spec-content">
+            <p><strong>AND Gate:</strong> Dual input detection</p>
+            <p><strong>OR Gate:</strong> Alternative activation</p>
+            <p><strong>NOT Gate:</strong> Repressor-based</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="zoom-in">
+        <div class="spec-card">
+          <h5><i class="fas fa-lightbulb text-warning"></i> Light Control</h5>
+          <div class="spec-content">
+            <p><strong>Wavelength:</strong> 450-550nm</p>
+            <p><strong>Intensity:</strong> 10-100 mW/cm²</p>
+            <p><strong>Response Time:</strong> <5 minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Future Directions -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Future Directions</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-lg-6 mb-4" data-aos="fade-right">
+        <div class="future-card">
+          <h4><i class="fas fa-rocket text-primary"></i> Advanced Applications</h4>
+          <ul>
+            <li>Multi-bit parallel computing systems</li>
+            <li>Biological memory storage devices</li>
+            <li>Programmable cellular sensors</li>
+            <li>Drug delivery control systems</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4" data-aos="fade-left">
+        <div class="future-card">
+          <h4><i class="fas fa-globe text-success"></i> Industry Impact</h4>
+          <ul>
+            <li>Pharmaceutical manufacturing</li>
+            <li>Environmental monitoring</li>
+            <li>Biomedical diagnostics</li>
+            <li>Synthetic biology education</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Publications & Awards -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Publications & Awards</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="publication-card">
+          <h5><i class="fas fa-award text-warning"></i> Awards</h5>
+          <ul>
+            <li>Best Project Design Award</li>
+            <li>Innovation in Synthetic Biology</li>
+            <li>Excellence in Engineering</li>
+            <li>Outstanding Team Collaboration</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="publication-card">
+          <h5><i class="fas fa-book text-info"></i> Publications</h5>
+          <ul>
+            <li>Conference presentations at iGEM</li>
+            <li>Research paper in preparation</li>
+            <li>Open-source software release</li>
+            <li>Educational materials development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Full Screen Innovation Showcase -->
+<div class="fullscreen-showcase" data-aos="fade-up">
+  <div class="showcase-content">
+    <div class="row align-items-center">
+      <div class="col-lg-6" data-aos="fade-right">
+        <h2 class="display-4 text-gradient mb-4">Revolutionary Approach</h2>
+        <p class="lead mb-4">Our LOGIC system represents a paradigm shift in biological computing, combining the elegance of quorum sensing with the precision of spatial diffusion to create a new generation of biocomputers.</p>
+        <div class="innovation-highlights">
+          <div class="highlight-item">
+            <i class="fas fa-dna text-primary"></i>
+            <span>Genetic Circuit Design</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-microchip text-success"></i>
+            <span>Logic Gate Implementation</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fas fa-lightbulb text-warning"></i>
+            <span>Light Control System</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="showcase-visual">
+          <div class="molecular-animation">
+            <div class="molecule"></div>
+            <div class="molecule"></div>
+            <div class="molecule"></div>
+            <div class="connection-line"></div>
+            <div class="connection-line"></div>
+            <div class="connection-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detailed Research Section -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Detailed Research Methodology</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="methodology-card">
+          <h4><i class="fas fa-flask text-primary"></i> Experimental Design</h4>
+          <p>Our research methodology follows a systematic approach combining computational modeling, genetic engineering, and experimental validation.</p>
+          <ul>
+            <li>Computational modeling of QS systems</li>
+            <li>Genetic circuit design and optimization</li>
+            <li>Experimental validation and testing</li>
+            <li>Performance analysis and optimization</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4" data-aos="fade-up">
+        <div class="methodology-card">
+          <h4><i class="fas fa-chart-line text-success"></i> Data Analysis</h4>
+          <p>Comprehensive data analysis techniques ensure reliable and reproducible results across all experimental conditions.</p>
+          <ul>
+            <li>Statistical analysis of experimental data</li>
+            <li>Computational modeling validation</li>
+            <li>Performance metrics evaluation</li>
+            <li>Comparative analysis with existing methods</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Technology Stack -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12">
+    <h2 class="section-title text-center">Technology Stack</h2>
+    <hr class="section-divider" />
+    <div class="row">
+      <div class="col-md-3 mb-4" data-aos="zoom-in">
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fas fa-dna"></i>
+          </div>
+          <h5>Genetic Engineering</h5>
+          <p>CRISPR-Cas9, Gibson Assembly, Golden Gate cloning</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="zoom-in">
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h5>Computational Tools</h5>
+          <p>Python, MATLAB, COMSOL, BioCAD</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="zoom-in">
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <h5>Analytical Methods</h5>
+          <p>Flow cytometry, Fluorescence microscopy, qPCR</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4" data-aos="zoom-in">
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h5>Automation</h5>
+          <p>Lab automation, High-throughput screening</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Call to Action -->
+<div class="row mb-5" data-aos="fade-up">
+  <div class="col-12 text-center">
+    <div class="cta-section">
+      <h3>Ready to Explore More?</h3>
+      <p class="lead">Discover the detailed science behind our LOGIC project</p>
+      <div class="cta-buttons">
+        <a href="description" class="btn btn-primary btn-lg me-3">Project Description</a>
+        <a href="engineering" class="btn btn-outline-primary btn-lg me-3">Engineering</a>
+        <a href="results" class="btn btn-outline-success btn-lg">Results</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  <footer class="footer-section">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-links">
+        <div class="footer-section-item">
+          <h5>PROJECT</h5>
+          <ul>
+            <li><a href="description">Description</a></li>
+            <li><a href="engineering">Design</a></li>
+            <li><a href="results">Applications</a></li>
+            <li><a href="attributions">Contribution</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>WET LAB</h5>
+          <ul>
+            <li><a href="experiments">Parts</a></li>
+            <li><a href="engineering">Engineering</a></li>
+            <li><a href="results">Results</a></li>
+            <li><a href="experiments">Experiments</a></li>
+            <li><a href="safety-and-security">Safety</a></li>
+            <li><a href="notebook">Notebook</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>MODEL</h5>
+          <ul>
+            <li><a href="model">Model</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>HP</h5>
+          <ul>
+            <li><a href="human-practices">Overview</a></li>
+            <li><a href="human-practices">Integrated HP</a></li>
+            <li><a href="human-practices">Communication</a></li>
+            <li><a href="education">Education</a></li>
+            <li><a href="human-practices">Collaboration</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>AWARDS</h5>
+          <ul>
+            <li><a href="attributions">Awards</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>TEAM</h5>
+          <ul>
+            <li><a href="members">Team</a></li>
+            <li><a href="attributions">Attributions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div class="contact-info">
+          <p><strong>Contact</strong></p>
+          <p>923680268@qq.com</p>
+          <p>Wuhan University Hubei China</p>
+          <p>whu-china</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-license">
+        <p><small>© 2024 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+        <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/whu-china">gitlab.igem.org/2024/whu-china</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="static/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Initialize AOS with smooth scrolling -->
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: false,
+      mirror: true,
+      offset: 50,
+      delay: 0
+    });
+    
+               // Progress indicator functionality
+           document.addEventListener('DOMContentLoaded', function() {
+             const sections = document.querySelectorAll('[data-aos]');
+             const progressCircle = document.querySelector('.progress-ring-circle');
+             const character = document.querySelector('.character');
+             const journeyGates = document.querySelectorAll('.journey-gate');
+
+             function updateProgress() {
+               const scrollTop = window.pageYOffset;
+               const docHeight = document.body.offsetHeight - window.innerHeight;
+               const scrollPercent = (scrollTop / docHeight) * 100;
+
+               // Update circular progress
+               const radius = 50;
+               const circumference = 2 * Math.PI * radius;
+               const offset = circumference - (scrollPercent / 100) * circumference;
+               progressCircle.style.strokeDasharray = circumference;
+               progressCircle.style.strokeDashoffset = offset;
+
+               // Update gate states based on scroll progress
+               const totalGates = journeyGates.length;
+               const activeGateIndex = Math.floor((scrollPercent / 100) * totalGates);
+
+               journeyGates.forEach((gate, index) => {
+                 if (index <= activeGateIndex) {
+                   gate.classList.add('active');
+                 } else {
+                   gate.classList.remove('active');
+                 }
+               });
+
+               // Add walking animation to character
+               if (scrollPercent > 0 && scrollPercent < 100) {
+                 character.classList.add('walking');
+               } else {
+                 character.classList.remove('walking');
+               }
+             }
+
+             window.addEventListener('scroll', updateProgress);
+             updateProgress();
+           });
+  </script>
+</body>
+</html>

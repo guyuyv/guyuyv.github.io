@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/common/icons/favicons/igem-2022.svg"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/style.css" rel="stylesheet">
+
+    <title>Attributions | WHU-China - iGEM 2025</title>
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-glass fixed-top">
+  <div class="container">
+
+    <!-- TEAM NAME -->
+    <a class="navbar-brand" href="#">WHU-China</a>
+
+    <!-- SMALL SCREEN MENU ICON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto left-aligned">
+
+        <!-- HOME -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <!-- TEAM -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-team" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-team">
+            <li><a class="dropdown-item" href="members">Members</a></li>
+            <li><a class="dropdown-item" href="attributions">Attributions</a></li>
+          </ul>
+        </li>
+
+        <!-- PROJECT -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-project" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-project">
+            <li><a class="dropdown-item" href="description">Description</a></li>
+            <li><a class="dropdown-item" href="engineering">Engineering</a></li>
+            <li><a class="dropdown-item" href="results">Results</a></li>
+            <li><a class="dropdown-item" href="contribution">Contribution</a></li>
+          </ul>
+        </li>
+
+        <!-- WET LAB -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-wet-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Wet Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-wet-lab">
+            <li><a class="dropdown-item" href="experiments">Experiments</a></li>
+            <li><a class="dropdown-item" href="notebook">Notebook</a></li>
+            <li><a class="dropdown-item" href="measurement">Measurement</a></li>
+            <li><a class="dropdown-item" href="plant">Plant</a></li>
+            <li><a class="dropdown-item" href="safety-and-security">Safety and Security</a></li>
+          </ul>
+        </li>
+
+        <!-- DRY LAB -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-dry-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dry Lab
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-dry-lab">
+            <li><a class="dropdown-item" href="model">Model</a></li>
+            <li><a class="dropdown-item" href="software">Software</a></li>
+            <li><a class="dropdown-item" href="hardware">Hardware</a></li>
+          </ul>
+        </li>
+
+        <!-- ENGAGEMENT -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar-engagement" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Engagement
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbar-engagement">
+            <li><a class="dropdown-item" href="entrepreneurship">Entrepreneurship</a></li>
+            <li><a class="dropdown-item" href="human-practices">Human Practices</a></li>
+            <li><a class="dropdown-item" href="education">Education</a></li>
+            <li><a class="dropdown-item" href="inclusivity">Inclusivity</a></li>
+            <li><a class="dropdown-item" href="sustainability">Sustainability</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+          <!-- Progress Indicator -->
+        <div class="progress-indicator">
+          <div class="circular-progress">
+            <div class="progress-ring">
+              <svg class="progress-ring-svg" width="120" height="120">
+                <defs>
+                  <linearGradient id="progress-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#ff1493;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#ff69b4;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <circle class="progress-ring-circle-bg" cx="60" cy="60" r="50" stroke-width="8"></circle>
+                <circle class="progress-ring-circle" cx="60" cy="60" r="50" stroke-width="8"></circle>
+              </svg>
+              <div class="progress-center">
+                <div class="character">
+                  <div class="character-body">
+                    <div class="character-head"></div>
+                    <div class="character-torso"></div>
+                    <div class="character-legs">
+                      <div class="leg left-leg"></div>
+                      <div class="leg right-leg"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="logic-gates-circle">
+              <div class="gate-position gate-1">
+                <div class="logic-gate journey-gate and-gate">
+                  <div class="gate-input input-1"></div>
+                  <div class="gate-input input-2"></div>
+                  <div class="gate-body"></div>
+                  <div class="gate-output"></div>
+                  <div class="gate-label">AND</div>
+                </div>
+              </div>
+              <div class="gate-position gate-2">
+                <div class="logic-gate journey-gate or-gate">
+                  <div class="gate-input input-1"></div>
+                  <div class="gate-input input-2"></div>
+                  <div class="gate-body"></div>
+                  <div class="gate-output"></div>
+                  <div class="gate-label">OR</div>
+                </div>
+              </div>
+              <div class="gate-position gate-3">
+                <div class="logic-gate journey-gate not-gate">
+                  <div class="gate-input input-1"></div>
+                  <div class="gate-body"></div>
+                  <div class="gate-output"></div>
+                  <div class="gate-label">NOT</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <!-- Page Content -->
+  <div class="container">
+    
+
+<div class="row mt-4">
+  <div class="col">
+    <div class="bd-callout bd-callout-info">
+      <h4>Bronze Medal Criterion #2</h4>
+      <p>Describe what work your team members did and what other people did for your project using the standardized Project Attributions Form.</p>
+      <hr />
+      <p>Visit the <a href="https://competition.igem.org/judging/medals">Medals page</a> for more information.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>What Should this Page Contain?</h2>
+    <hr />
+    <ul>
+      <li>The standard navigation menu of your wiki</li>
+      <li>The standard footer of your wiki</li>
+      <li>The embedded iframe containing your standardized team's Project Attribution form.</li>
+      <li>Nothing else</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col">
+    <h2>Tips for Success</h2>
+    <hr />
+    <p>Teams must use the official Attributions form. This form clearly delineates the work conducted by your team members and the support received from others. Carefully review the instructions and requirements of this deliverable on the <a href="https://competition.igem.org/deliverables/project-attribution">Project Attribution page</a>. Please note:</p>
+    <ul>
+      <li>Teams must use the standard form. Do not create your own form.</li>
+      <li>The standard Attributions Form must be filled out completely, accurately and honestly.</li>
+      <li>For the best results, we recommend teams start filling out the Attributions Form early in the season and updating it often.</li>
+    </ul>
+  </div>
+</div>
+
+<!--
+  ======================================================================
+  == VERY IMPORTANT                                                   ==
+  ======================================================================
+  LEAVE THE IFRAME CODE BELOW AS IT IS, THE ATTRIBUTION FORM OF YOUR TEAM
+  WILL BE DISPLAYED ON THIS PAGE. DO NOT REMOVE IT, OTHERWISE YOU RISK OF
+  NOT MEETING BRONZE MEDAL CRITERION #2
+ -->
+<div class="row mt-4">
+  <script type="text/javascript">
+    // Listen to size change and update form height
+    window.addEventListener("message", function (e) {
+      if (e.origin === "https://teams.igem.org") {
+        const {type, data} = JSON.parse(e.data);
+        if (type === "igem-attribution-form") {
+          const element = document.getElementById("igem-attribution-form");
+          element.style.height = `${data + 100}px`;
+        }
+      }
+    });
+  </script>
+  <iframe
+    style='width: 100%'
+    id="igem-attribution-form"
+    src="https://teams.igem.org/wiki/5646/attributions">
+  >
+  </iframe>
+</div>
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+
+  </div>
+
+  <!-- Footer: MUST mention license AND have a link to team wiki's repository on gitlab.igem.org -->
+  <footer class="footer-section">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-links">
+        <div class="footer-section-item">
+          <h5>PROJECT</h5>
+          <ul>
+            <li><a href="description">Description</a></li>
+            <li><a href="engineering">Design</a></li>
+            <li><a href="results">Applications</a></li>
+            <li><a href="attributions">Contribution</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>WET LAB</h5>
+          <ul>
+            <li><a href="experiments">Parts</a></li>
+            <li><a href="engineering">Engineering</a></li>
+            <li><a href="results">Results</a></li>
+            <li><a href="experiments">Experiments</a></li>
+            <li><a href="safety-and-security">Safety</a></li>
+            <li><a href="notebook">Notebook</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>MODEL</h5>
+          <ul>
+            <li><a href="model">Model</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>HP</h5>
+          <ul>
+            <li><a href="human-practices">Overview</a></li>
+            <li><a href="human-practices">Integrated HP</a></li>
+            <li><a href="human-practices">Communication</a></li>
+            <li><a href="education">Education</a></li>
+            <li><a href="human-practices">Collaboration</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>AWARDS</h5>
+          <ul>
+            <li><a href="attributions">Awards</a></li>
+          </ul>
+        </div>
+        <div class="footer-section-item">
+          <h5>TEAM</h5>
+          <ul>
+            <li><a href="members">Team</a></li>
+            <li><a href="attributions">Attributions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div class="contact-info">
+          <p><strong>Contact</strong></p>
+          <p>923680268@qq.com</p>
+          <p>Wuhan University Hubei China</p>
+          <p>whu-china</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-license">
+        <p><small>© 2024 - Content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+        <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/whu-china">gitlab.igem.org/2024/whu-china</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="static/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Initialize AOS with smooth scrolling -->
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: false,
+      mirror: true,
+      offset: 50,
+      delay: 0
+    });
+    
+               // Progress indicator functionality
+           document.addEventListener('DOMContentLoaded', function() {
+             const sections = document.querySelectorAll('[data-aos]');
+             const progressCircle = document.querySelector('.progress-ring-circle');
+             const character = document.querySelector('.character');
+             const journeyGates = document.querySelectorAll('.journey-gate');
+
+             function updateProgress() {
+               const scrollTop = window.pageYOffset;
+               const docHeight = document.body.offsetHeight - window.innerHeight;
+               const scrollPercent = (scrollTop / docHeight) * 100;
+
+               // Update circular progress
+               const radius = 50;
+               const circumference = 2 * Math.PI * radius;
+               const offset = circumference - (scrollPercent / 100) * circumference;
+               progressCircle.style.strokeDasharray = circumference;
+               progressCircle.style.strokeDashoffset = offset;
+
+               // Update gate states based on scroll progress
+               const totalGates = journeyGates.length;
+               const activeGateIndex = Math.floor((scrollPercent / 100) * totalGates);
+
+               journeyGates.forEach((gate, index) => {
+                 if (index <= activeGateIndex) {
+                   gate.classList.add('active');
+                 } else {
+                   gate.classList.remove('active');
+                 }
+               });
+
+               // Add walking animation to character
+               if (scrollPercent > 0 && scrollPercent < 100) {
+                 character.classList.add('walking');
+               } else {
+                 character.classList.remove('walking');
+               }
+             }
+
+             window.addEventListener('scroll', updateProgress);
+             updateProgress();
+           });
+  </script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://static.igem.wiki/common/icons/favicons/igem-2022.svg"/>
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="static/style.css" rel="stylesheet">
+
+    <title> | WHU-China - iGEM 2025</title>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+  
+      <!-- TEAM NAME -->
+      <a class="navbar-brand" href="#">WHU-China</a>
+  
+      <!-- SMALL SCREEN MENU ICON -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto left-aligned">
+  
+          <!-- HOME -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+  
+          <!-- TEAM -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-team" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Team
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbar-team">
+              <li><a class="dropdown-item" href="members">Members</a></li>
+              <li><a class="dropdown-item" href="attributions">Attributions</a></li>
+            </ul>
+          </li>
+  
+          <!-- PROJECT -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-project" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Project
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbar-project">
+              <li><a class="dropdown-item" href="description">Description</a></li>
+              <li><a class="dropdown-item" href="engineering">Engineering</a></li>
+              <li><a class="dropdown-item" href="results">Results</a></li>
+              <li><a class="dropdown-item" href="contribution">Contribution</a></li>
+            </ul>
+          </li>
+  
+          <!-- WET LAB -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-wet-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Wet Lab
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbar-wet-lab">
+              <li><a class="dropdown-item" href="experiments">Experiments</a></li>
+              <li><a class="dropdown-item" href="notebook">Notebook</a></li>
+              <li><a class="dropdown-item" href="measurement">Measurement</a></li>
+              <li><a class="dropdown-item" href="plant">Plant</a></li>
+              <li><a class="dropdown-item" href="safety-and-security">Safety and Security</a></li>
+            </ul>
+          </li>
+  
+          <!-- DRY LAB -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-dry-lab" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dry Lab
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbar-dry-lab">
+              <li><a class="dropdown-item" href="model">Model</a></li>
+              <li><a class="dropdown-item" href="software">Software</a></li>
+              <li><a class="dropdown-item" href="hardware">Hardware</a></li>
+            </ul>
+          </li>
+  
+          <!-- ENGAGEMENT -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar-engagement" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Engagement
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbar-engagement">
+              <li><a class="dropdown-item" href="entrepreneurship">Entrepreneurship</a></li>
+              <li><a class="dropdown-item" href="human-practices">Human Practices</a></li>
+              <li><a class="dropdown-item" href="education">Education</a></li>
+              <li><a class="dropdown-item" href="inclusivity">Inclusivity</a></li>
+              <li><a class="dropdown-item" href="sustainability">Sustainability</a></li>
+            </ul>
+          </li>
+  
+        </ul>
+      </div>
+    </div>
+  </nav>
+</body>
+
+
+<html>
+
+<head>
+
+
+        <meta charset="UTF-8">
+    
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+        <style>
+    
+    
+            body {
+    
+    
+                margin: 0;
+    
+    
+                height: 100vh;
+    
+                animation: bgAnimation 4s infinite alternate;
+
+
+}
+
+
+@keyframes bgAnimation {
+
+
+    0% { background-color: #ffe3af; }
+
+    25% { background-color: #f0ffbc; }
+
+    75% { background-color: #bcffc7; }
+
+    100% { background-color: #bae1ff; }
+
+
+}
+
+
+</style>
+
+
+<title>Members</title>
+
+
+</head>
+
+
+
+<div class="row">
+  <div class="col-8">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h2 align="center">What Should this Page Contain?</h2>
+    <hr />
+    <ul>
+      <li align="center">Include pictures of your teammates, don't forget instructors and advisors!</li>
+      <li align="center">You can add a small biography or a few words from each team member, to tell us what you like, and what motivated you to participate in iGEM.</li>
+      <li align="center">Present your lab environment, your institution, and perhaps glimpses of your city or region.</li>
+      <li align="center">Showcase the expertise and guidance of your instructors and advisors.</li>
+    </ul>
+    <div class="bd-callout bd-callout-info">
+      <strong>Important:</strong> Remember that your wiki will be archived and remain publicly accessible. Be mindful of the personal information you share. Avoid posting sensitive details. Be sure everyone shown in pictures agree to them being shown.
+    </div>
+  </div>
+  <div class="col-4">
+    <h2>Inspirations</h2>
+    <hr />
+    <ul>
+      <li><a href="https://2024.igem.wiki/waseda-tokyo/members">2024 Waseda-Tokyo</a></li>
+      <li><a href="https://2024.igem.wiki/aachen/team">2024 Aachen</a></li>
+      <li><a href="https://2024.igem.wiki/patras/team">2024 Patras</a></li>
+      <li><a href="https://2024.igem.wiki/dtu-denmark/team">2024 DTU-Denmark</a></li>
+      <li><a href="https://2024.igem.wiki/fudan/team">2024 Fudan</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+</html>
